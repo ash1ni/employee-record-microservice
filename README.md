@@ -1,10 +1,10 @@
-# Employee Data Summary Micro-Service
+# Employee Record Summary Micro-Service
 
 This Node.js micro-service provides functionality to manage and analyze employee data. It allows users to add, delete records and fetch summary statistics for salary in various ways. User registration and authentication are also implemented.
 
 ## Table of Contents
 
-- [Employee Data Summary Micro-Service](#employee-data-summary-micro-service)
+- [Employee Record Summary Micro-Service](#employee-record-summary-micro-service)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -27,15 +27,18 @@ This Node.js micro-service provides functionality to manage and analyze employee
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ash1ni/employee-data-microservice.git
-   cd employee-data-microservice
+   git clone https://github.com/ash1ni/employee-record-microservice.git
+   cd employee-record-microservice
 
 2. Install Dependencies:
+
    ```bash
    npm install
 
 3. Start the server
+
    ```bash
+
    node app.js
 
 # Usage
