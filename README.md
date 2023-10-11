@@ -55,7 +55,7 @@ The following API endpoints are available:
 | GET    | /by-department                  | Get summary statistics for salary by department. (Requires authentication)      |
 | GET    | /subdepartment-summary                 | Get summary statistics for salary by department and sub-department combination. (Requires authentication)      |
 | POST  | /login                | User login|
-| POST      | /logut         | User logout      |
+| POST      | /logout         | User logout      |
 
 # Login & Logout
 
