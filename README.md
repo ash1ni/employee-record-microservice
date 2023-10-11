@@ -9,8 +9,6 @@ This Node.js micro-service provides functionality to manage and analyze employee
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-- [Usage](#usage)
-  - [API Endpoints](#api-endpoints)
   - [Authentication](#authentication)
   - [Error Handling](#error-handling)
   - [Run Test](#run-test)
@@ -56,6 +54,27 @@ The following API endpoints are available:
 | GET    | /on-contract               | Get summary statistics for salary for records with "on_contract": "true". (Requires authentication)      |
 | GET    | /by-department                  | Get summary statistics for salary by department. (Requires authentication)      |
 | GET    | /subdepartment-summary                 | Get summary statistics for salary by department and sub-department combination. (Requires authentication)      |
+| POST  | /login                | User login|
+| POST      | /logut         | User logout      |
+
+# Login & Logout
+
+To log in go to the /login and provide:
+
+```bash
+{"username":"user", "password":"password"}
+
+```
+
+After login the user gets authenticated and you can accesss other routes.
+
+For logout you can simply:
+
+```bash
+
+POST http://localhost:3000/logout
+
+```
 
 ## Authentication
 
